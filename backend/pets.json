@@ -1,0 +1,14 @@
+[
+  {
+    "petName": "dog",
+    "petBreed": "German shepherd",
+    "petColor": "brown",
+    "petLocation": "kozhikode",
+    "petAge": "3",
+    "petPrice": "2000",
+    "petDescription": "active and friendly",
+    "petVaccinated": "yes",
+    "petContact": "7654347988ZZZ"
+
+  }
+]

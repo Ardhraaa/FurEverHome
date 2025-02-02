@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FurEverHome</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- Hero Section with Images -->
+   <section id="home" class="hero">
+    <div class="content">
+        <h1>FurEverHome</h1>
+        <p>Your perfect pet is waiting for you!</p>
+        <!-- Add images of pets -->
+    
+    </div>
+</section>
+
+
+    <!-- Search Section -->
+    <section id="search" class="search-section">
+        <div class="search-container">
+            <h2>Find Your Perfect Pet</h2>
+            <form id="searchForm">
+                <input type="text" id="searchQuery" placeholder="Search for pets..." />
+            
+                <input type="text" id="colorFilter" placeholder="Color" />
+                <input type="number" id="ageFilter" placeholder="Age" />
+                <input type="number" id="priceFilter" placeholder="Max Price" />
+                
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Pet Submission Form Section -->
+    <section id="submit" class="submit-form-section">
+        <div class="form-container">
+            <h2>Submit a Pet for Adoption</h2>
+            <form id="petForm">
+                <input type="text" id="petName" placeholder="Pet Name" required />
+                <input type="text" id="petBreed" placeholder="Breed" required />
+                <input type="text" id="petColor" placeholder="Color" required />
+                <input type="text" id="petLocation" placeholder="Location" required />
+                <input type="number" id="petAge" placeholder="Age" required />
+                <input type="number" id="petPrice" placeholder="Adoption Fee" required />
+                <p class="image-label">Image of the pet</p>
+                <input type="file" id="petPhoto" accept="image/*" />
+                
+
+                <select id="vaccinatedFilter">
+                    <option value="">Vaccinated?</option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+                <textarea id="petDescription" placeholder="Description" required></textarea>
+                <input type="number" id="petContact" placeholder="Contact" required />
+                <button type="submit">Submit </button>
+            </form>
+        </div>
+    </section>
+    <!-- Navigation Bar -->
+<nav class="navbar">
+    <div class="logo">FurEverHome</div>
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#search">Search</a></li>
+        <li><a href="#submit">Submit</a></li>
+    </ul>
+</nav>
+
+             
+    <script src="script.js"></script>
+</body>
+</html>
+
