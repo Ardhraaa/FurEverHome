@@ -1,99 +1,88 @@
-# [Project Name] 🎯
+# FurEverHome 🐾
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: CodeX
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: Ardhra B - Government Model Engineering College
+- Member 2: Khansa Shamsudheen - Government Model Engineering College
 
 ### Hosted Project Link
-[mention your project hosted project link here]
+https://fur-ever-home-sigma.vercel.app/
 
 ### Project Description
-[2-3 lines about what your project does]
+FurEverHome is a pet matchmaking platform designed to connect pets with loving families. Users can search for pets based on breed, age, and color, while adoption centers and owners can list pets with detailed descriptions, making the adoption process smoother and more efficient.
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+Many pets are abandoned or left in shelters without finding the right homes. Traditional adoption processes can be slow, and potential pet owners may struggle to find pets that match their preferences. Additionally, adoption centers often face challenges in reaching a wider audience, making it harder to connect pets with loving families.
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+FurEverHome provides an easy-to-use platform where pet seekers can find their ideal pet using search filters. Pet adoption centers and owners can list pets with detailed descriptions, ensuring better matchmaking. By streamlining the adoption process, FurEverHome helps more pets find loving homes quickly and efficiently
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+Languages: HTML, CSS, JavaScript
+Frameworks: Node.js, Express.js
+Libraries: Cors, Body-Parser
+Database: JSON
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+NOT APPLICABLE
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+# Clone the repository
+git clone https://github.com/CodeX/FurEverHome.git
+
+# Navigate to the project folder
+cd FurEverHome
+
+# Install dependencies
+npm install
 
 # Run
-[commands]
+# Start the backend server
+node server.js
+
+# Open the frontend in your browser
+Open index.html
 
 ### Project Documentation
 For Software:
 
-# Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+# Homepage
+ ![FurEverHome_homepage](https://github.com/user-attachments/assets/d89b4862-8261-4410-b772-049bff74676d)
+Shows the landing page 
+# Search option
+![FurEverHome_search](https://github.com/user-attachments/assets/6553f88e-34e3-46f7-9729-ad64dc46503c)
+This shows the search bar to check different pets with filters
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+# Submit form
+![FurEverHome_submit1](https://github.com/user-attachments/assets/1902a117-d350-447d-b7ff-1460784daa59)
+![FurEverHome_submit2](https://github.com/user-attachments/assets/8a34cef0-0010-4b25-9ad1-23f1db245e61)
+This is the submitting form for adpotion centers or pet owners to sell or donate their pets by entering specific details about them
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+# Search Result 
+![FurEverHome_search_result](https://github.com/user-attachments/assets/a6ae774d-4577-4cc5-afda-1591bdd2fd51)
+This is the search result of every available pets 
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Team](Add photo of your team here)
-
-
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
+![FurEverHome_search_result_with_filter](https://github.com/user-attachments/assets/1ff6beaf-be58-4142-b81d-adc2fc93605f)
+This is the search result when a specific filter is chose 
+here cat is chosen in filter
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+https://youtu.be/FjdaO8nZBa0?si=DJqSs1jtmzmcVbAX
+This video is a screen recording of how the website works, showing how details about the pets are submitted and then accessed through the search button.
 
-# Additional Demos
-[Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Ardhra B : Frontend,Backend,UI/UX Design
+- Khansa Shamsudheen : Database-backend
 
 ---
 Made with ❤️ at TinkerHub
